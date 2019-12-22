@@ -35,8 +35,8 @@ class App extends React.Component {
       // If not in chosenArray increments currentScore by 1
       this.setState({ currentScore: this.state.currentScore + 1 });
       // Checks the topScore and updates if currentScore is higher than top score
-      if (this.state.currentScore >= this.state.topScore) {
-          this.setState({ topScore: this.state.topScore + 1 });
+      if (this.state.currentScore >= this.state.highScore) {
+          this.setState({ highScore: this.state.highScore + 1 });
       };
       // Pushes the selected array item to chosenArray
       chosenArray.push(chosen);
