@@ -1,0 +1,14 @@
+.pokemans-container {
+    /* margin-left: 15%; */
+    margin-right: 25%;
+}
+
+.pokemans {
+    cursor: pointer;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    max-width: 170px;
+    /* text-align: center; */
+}
