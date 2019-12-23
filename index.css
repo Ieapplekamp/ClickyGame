@@ -1,9 +1,12 @@
 body {
-    background: url(minimal.jpg) no-repeat center center fixed; 
+    margin: 0;
+    padding: 0;
+    background: url(gen4.png) no-repeat fixed right; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: rgb(178, 184, 195);
     color: white;
     font-family: 'Allerta Stencil', sans-serif;
 }
