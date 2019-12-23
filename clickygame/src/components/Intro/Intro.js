@@ -16,7 +16,7 @@ class Intro extends Component {
     render() {
         return (
             <section className="section-intro">
-                <img className="intro-pic" src="http://assets.stickpng.com/thumbs/585966004f6ae202fedf2874.png"></img>
+                <img className="intro-pic" src="../images/dawn.png"></img>
                 <p>
                 Click on an image to earn points, but don't click on any more than once!
                 <br/><br/><br/>
