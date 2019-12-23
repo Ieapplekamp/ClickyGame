@@ -5,7 +5,7 @@ import React from 'react';
 import Matches from "./components/matchmatch.json"
 
 import Navbar from "./components/Navbar";
-import Intro from "./components/Intro";
+// import Intro from "./components/Intro";
 import Pics from "./components/Pics";
 import shuffle from "./components/Shuffle"
 
@@ -54,9 +54,9 @@ class App extends React.Component {
             currentScore={this.state.currentScore}
             highScore= {this.state.highScore}
           />
-          <Intro dismissable={true} title="Click any picture to begin!">
+          {/* <Intro dismissable={true} title="Click any picture to begin!">
             Press on a picture to earn points, but try not press the same picture twice!
-          </Intro>
+          </Intro> */}
           <Pics
             Matches={this.state.Matches}
             gameLoop = {this.gameLoop}
