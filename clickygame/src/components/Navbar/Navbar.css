@@ -1,16 +1,15 @@
 header {
     background-color: rgb(29,29,29);
-    padding: 1% 0 1% 0;
-    /* position: relative; */
-    /* position: fixed; */
+    padding: 1% 0% 1% 0;
 }
 .navbar {
-    
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     display: inline;
-    justify-content: space-around;
-    align-items: center;
     text-align: center;
+}
+
+.nav-p {
+    margin: 3px 0 3px 0;
 }
 
 .nav-img {
@@ -18,11 +17,12 @@ header {
     margin-left: 1%;
     padding: 0 1% 0 0;
     max-width: 20px;
-    /* max-height: 20px; */
-    margin-right: auto;
 }
 
 .scores {
-    float: right;
-    padding-right: 2%;
+    background-color: rgba(29,29,29, .8);
+    padding: 1px 10px 3px 10px;
+    position: fixed;
+    right: .5%;
+    border-radius: 5px;
 }
