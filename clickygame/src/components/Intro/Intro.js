@@ -16,7 +16,7 @@ class Intro extends Component {
     render() {
         return (
             <section className="section-intro">
-                <img className="intro-pic" src="../images/dawn.png"></img>
+                <img className="intro-pic" src={require('../images/dawn.png')} alt="dawn pic"></img>
                 <p>
                 Click on an image to earn points, but don't click on any more than once!
                 <br/><br/><br/>

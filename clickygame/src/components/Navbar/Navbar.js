@@ -1,10 +1,11 @@
 import React from "react";
 import "../Navbar/Navbar.css"
+// import "../images/pokeball.png"
 
 function Navbar(props) {
     return (
         <header>
-            <img className="nav-img" src="../public/images/pokeball.png" alt="pokeball"></img>
+            <img className="nav-img" src={require('../images/pokeball.png')} alt="pokeball"/>
             <nav className="navbar">
             
                 <span>Catch'Em All!</span>
