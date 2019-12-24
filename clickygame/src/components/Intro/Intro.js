@@ -7,7 +7,13 @@ class Intro extends Component {
         isDismissed: false
     }
 
-    dismissHandler = () => {
+    // dismissHandler = () => {
+    //     this.setState({
+    //         isDismissed: true
+    //     })
+    // }
+
+    operation() {
         this.setState({
             isDismissed: true
         })
@@ -15,8 +21,11 @@ class Intro extends Component {
 
     render() {
         return (
+            // {
+            //     (this.state.isDismissed) ?  : null;
+            // }
             <section className="section-intro">
-                <img className="intro-pic" src={require('../images/dawn.png')} alt="dawn pic"></img>
+                <img className="intro-pic" onClick={()=>this.operation()} src={require('../images/dawn.png')} alt="dawn pic"></img>
                 <p>
                 Click on an pokemon to earn points, but don't click on any more than once!
                 <br/><br/><br/>
