@@ -1,6 +1,6 @@
 .pokemans-container {
-    /* margin-left: 15%; */
     margin-right: 25%;
+    
 }
 
 .pokemans {
@@ -10,7 +10,6 @@
     align-items: center;
     margin: 1%;
     max-width: 170px;
-    /* text-align: center; */
 }
 
 @media only screen and (max-width: 999px) {
@@ -22,5 +21,15 @@
 @media only screen and (max-width: 885px) {
     .pokemans-container {
         margin-right: 35%;
+    }
+}
+@media only screen and (max-width: 666px) {
+    .pokemans-container {
+        margin-right: 0;
+    }
+    .pokemans {
+        max-width: 30%;
+        background-color: rgba(29,29,29,.8);
+        border-radius: 10px;
     }
 }
