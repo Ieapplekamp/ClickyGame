@@ -22,7 +22,7 @@ class Intro extends Component {
     };
 
     render() {
-        console.log("this was triggered")
+        
         return  this.state.show ? (
             
             <section className={`section-intro`}>
