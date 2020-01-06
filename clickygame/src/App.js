@@ -4,6 +4,10 @@ import Navbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
 import Pics from "./components/Pics/Pics";
 import shuffle from "./components/Shuffle"
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
+const MySwal = withReactContent(Swal)
 
 let chosenArray = [];
 
@@ -12,18 +16,27 @@ class App extends React.Component {
 	state = {
 		Matches,
     	currentScore: 0,
-    	highScore: 0
-  	}
+		highScore: 0
+	}
 
 	gameLoop = (event) => {
     	event.preventDefault();
-    
-    	let chosen = event.target.getAttribute('alt');
+	
+		let chosen = event.target.getAttribute('alt');
 
-    	if (chosenArray.includes(chosen)) {
+		if (chosenArray.includes(chosen)) {
+			
+			MySwal.fire({
+				onOpen: () => {
+				  MySwal.clickConfirm()
+				}
+			}).then(() => {
+				//    Issues with getting image to appear in modal <img src={this.state.Matches.source} alt={chosen}></img>
+				  return MySwal.fire(<p className="alert">You already guessed {chosen}!</p>)
+			  })
       
-    		this.setState({ currentScore: 0 });
-    		chosenArray = [];
+			this.setState({ currentScore: 0 });
+			chosenArray = [];
       
     	} else {
       

@@ -1,121 +1,121 @@
 [
     {
         "id": 1,
-        "name": "Jango",
+        "name": "Jangmo-o",
         "source": "https://serebii.net/swordshield/pokemon/782.png"
     },
 
     {
         "id": 2,
-        "name": "Moth",
+        "name": "Frosmoth",
         "source": "https://serebii.net/swordshield/pokemon/873.png"
     },
 
     {
         "id": 3,
-        "name": "angry centipeed",
+        "name": "Centiskorch",
         "source": "https://serebii.net/swordshield/pokemon/851.png"
     },
 
     {
         "id": 4,
-        "name": "scrag",
+        "name": "Scraggy",
         "source": "https://serebii.net/swordshield/pokemon/559.png"
     },
 
     {
         "id": 5,
-        "name": "chanda",
+        "name": "Chandelure",
         "source": "https://serebii.net/swordshield/pokemon/609.png"
     },
 
     {
         "id": 6,
-        "name": "bunny",
+        "name": "Scorbunny",
         "source": "https://serebii.net/swordshield/pokemon/813.png"
     },
 
     {
         "id": 7,
-        "name": "drill",
+        "name": "Excadrill",
         "source": "https://serebii.net/swordshield/pokemon/530.png"
     },
 
     {
         "id": 8,
-        "name": "lucario",
+        "name": "Lucario",
         "source": "https://serebii.net/swordshield/pokemon/448.png"
     },
 
     {
         "id": 9,
-        "name": "rat",
+        "name": "Togedemaru",
         "source": "https://serebii.net/swordshield/pokemon/777.png"
     },
 
     {
         "id": 10,
-        "name": "sword",
+        "name": "Aegislash",
         "source": "https://www.serebii.net/swordshield/pokemon/681.png"
     },
 
     {
         "id": 11,
-        "name": "mim",
+        "name": "Mimikyu",
         "source": "https://serebii.net/swordshield/pokemon/778.png"
     },
 
     {
         "id": 12,
-        "name": "dara",
+        "name": "Darumaka",
         "source": "https://serebii.net/swordshield/pokemon/554-g.png"
     },
 
     {
         "id": 13,
-        "name": "axu",
+        "name": "Axew",
         "source": "https://serebii.net/swordshield/pokemon/610.png"
     },
 
     {
         "id": 14,
-        "name": "goo",
+        "name": "Goodra",
         "source": "https://serebii.net/swordshield/pokemon/706.png"
     },
 
     {
         "id": 15,
-        "name": "draga",
+        "name": "Dragapult",
         "source": "https://serebii.net/swordshield/pokemon/887.png"
     },
 
     {
         "id": 16,
-        "name": "eldi",
+        "name": "Eldegoss",
         "source": "https://serebii.net/swordshield/pokemon/830.png"
     },
 
     {
         "id": 17,
-        "name": "ludi",
+        "name": "Ludicolo",
         "source": "https://serebii.net/swordshield/pokemon/272.png"
     },
 
     {
         "id": 18,
-        "name": "mr mime",
+        "name": "Mr. Rime",
         "source": "https://serebii.net/swordshield/pokemon/866.png"
     },
 
     {
         "id": 19,
-        "name": "Tox",
+        "name": "Toxtricity",
         "source": "https://www.serebii.net/swordshield/pokemon/849-l.png"
     },
 
     {
         "id": 20,
-        "name": "Cors",
+        "name": "Cursola",
         "source": "https://serebii.net/Shiny/SWSH/864.png"
     }
 

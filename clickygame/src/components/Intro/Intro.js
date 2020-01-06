@@ -28,8 +28,8 @@ class Intro extends Component {
             <section className={`section-intro`}>
                 
                 <img className="intro-pic" onClick={this.dismissable} src={require('../images/dawn.png')} alt="dawn pic"></img>
-                <p>
-                Click on an pokemon to earn points, but don't click on any more than once!
+                <p className="intro-p">
+                Click on a pokemon to earn points, but don't click on any more than once!
                 <br/><br/><br/>
                 Talk to Dawn to get started!
                 </p>
