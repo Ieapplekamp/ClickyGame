@@ -10,3 +10,11 @@ body {
     color: white;
     font-family: 'Allerta Stencil', sans-serif;
 }
+
+.swal2-popup {
+    background: rgba(29,29,29, .9)!important;
+}
+
+.swal2-title {
+    color: white!important;
+}
