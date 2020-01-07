@@ -20,6 +20,8 @@ body {
     color: white!important;
 }
 
-.failedPokemon {
+image, .failedPokemon {
     display: block;
+    
+    margin-left: 50px;
 }
