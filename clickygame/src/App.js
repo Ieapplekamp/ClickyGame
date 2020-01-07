@@ -19,7 +19,9 @@ class App extends React.Component {
 		highScore: 0
 	}
 
-	gameLoop = (event) => {
+	gameLoop = (event, name) => {
+		const currentPokemon = this.state.Matches.find(poke => poke.name === name);
+
     	event.preventDefault();
 	
 		let chosen = event.target.getAttribute('alt');
@@ -31,8 +33,7 @@ class App extends React.Component {
 				  MySwal.clickConfirm()
 				}
 			}).then(() => {
-				//    Issues with getting image to appear in modal <img src={this.state.Matches.source} alt={chosen}></img>
-				  return MySwal.fire(<p className="alert">You already guessed {chosen}!</p>)
+				  return MySwal.fire(<p className="alert">You already guessed <img src={currentPokemon.source} alt={chosen} className="failedPokemon"></img> {chosen}!</p>)
 			  })
       
 			this.setState({ currentScore: 0 });
