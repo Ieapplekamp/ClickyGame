@@ -31,7 +31,7 @@ class Intro extends Component {
                 <p className="intro-p">
                 Click on a pokemon to earn points, but don't click on any more than once!
                 <br/><br/><br/>
-                Talk to Dawn to get started!
+                Click on Dawn to clear up some space!
                 </p>
                 
             </section>
